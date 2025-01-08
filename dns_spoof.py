@@ -28,5 +28,3 @@ def process_packet(packet):
 queue = netfilterqueue.NetfilterQueue()
 queue.bind(0, process_packet)  # Bind the callback function to queue number 0
 queue.run()  # Start processing the packets
-
-git init
